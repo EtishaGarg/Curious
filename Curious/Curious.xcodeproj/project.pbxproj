@@ -11,6 +11,12 @@
 		6FA52CA62DDC7555004F9266 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA52CA52DDC7555004F9266 /* ContentView.swift */; };
 		6FA52CA82DDC7557004F9266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA52CA72DDC7557004F9266 /* Assets.xcassets */; };
 		6FA52CAB2DDC7557004F9266 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA52CAA2DDC7557004F9266 /* Preview Assets.xcassets */; };
+		6FA52CDF2DDCF7EF004F9266 /* RecentEpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA52CD92DDCF7EF004F9266 /* RecentEpisodesView.swift */; };
+		6FA52CE02DDCF7EF004F9266 /* FeaturedPodcastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA52CDA2DDCF7EF004F9266 /* FeaturedPodcastCard.swift */; };
+		6FA52CE12DDCF7EF004F9266 /* PodcastCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA52CDB2DDCF7EF004F9266 /* PodcastCategoriesView.swift */; };
+		6FA52CE22DDCF7EF004F9266 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA52CDC2DDCF7EF004F9266 /* HomeView.swift */; };
+		6FA52CE32DDCF7EF004F9266 /* RecentEpisodeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA52CDD2DDCF7EF004F9266 /* RecentEpisodeRow.swift */; };
+		6FA52CE42DDCF7EF004F9266 /* EpisodePlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA52CDE2DDCF7EF004F9266 /* EpisodePlayButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		6FA52CA52DDC7555004F9266 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6FA52CA72DDC7557004F9266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FA52CAA2DDC7557004F9266 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FA52CD92DDCF7EF004F9266 /* RecentEpisodesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentEpisodesView.swift; sourceTree = "<group>"; };
+		6FA52CDA2DDCF7EF004F9266 /* FeaturedPodcastCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedPodcastCard.swift; sourceTree = "<group>"; };
+		6FA52CDB2DDCF7EF004F9266 /* PodcastCategoriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastCategoriesView.swift; sourceTree = "<group>"; };
+		6FA52CDC2DDCF7EF004F9266 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6FA52CDD2DDCF7EF004F9266 /* RecentEpisodeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentEpisodeRow.swift; sourceTree = "<group>"; };
+		6FA52CDE2DDCF7EF004F9266 /* EpisodePlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodePlayButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,12 @@
 		6FA52CA22DDC7555004F9266 /* Curious */ = {
 			isa = PBXGroup;
 			children = (
+				6FA52CDE2DDCF7EF004F9266 /* EpisodePlayButton.swift */,
+				6FA52CDA2DDCF7EF004F9266 /* FeaturedPodcastCard.swift */,
+				6FA52CDC2DDCF7EF004F9266 /* HomeView.swift */,
+				6FA52CDB2DDCF7EF004F9266 /* PodcastCategoriesView.swift */,
+				6FA52CDD2DDCF7EF004F9266 /* RecentEpisodeRow.swift */,
+				6FA52CD92DDCF7EF004F9266 /* RecentEpisodesView.swift */,
 				6FA52CA32DDC7555004F9266 /* CuriousApp.swift */,
 				6FA52CA52DDC7555004F9266 /* ContentView.swift */,
 				6FA52CA72DDC7557004F9266 /* Assets.xcassets */,
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA52CE32DDCF7EF004F9266 /* RecentEpisodeRow.swift in Sources */,
+				6FA52CE02DDCF7EF004F9266 /* FeaturedPodcastCard.swift in Sources */,
 				6FA52CA62DDC7555004F9266 /* ContentView.swift in Sources */,
+				6FA52CDF2DDCF7EF004F9266 /* RecentEpisodesView.swift in Sources */,
+				6FA52CE22DDCF7EF004F9266 /* HomeView.swift in Sources */,
+				6FA52CE42DDCF7EF004F9266 /* EpisodePlayButton.swift in Sources */,
 				6FA52CA42DDC7555004F9266 /* CuriousApp.swift in Sources */,
+				6FA52CE12DDCF7EF004F9266 /* PodcastCategoriesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
